@@ -1,11 +1,12 @@
 .Sidebar{
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: #0B4619;
     position: fixed;
     height: 100%;
     overflow: auto;
+    font-family: 'Libre Bodoni', serif;
 }
 
 .Sidebar a{

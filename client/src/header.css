@@ -1,0 +1,65 @@
+.Header{
+    overflow: hidden;
+    background-color: #FFCC1D;
+    padding: 10px 10px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.Header a{
+    float: left;
+    color: #0B4619;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20pt;
+    line-height: 20px;
+}
+
+.snv{
+    margin: 0 35px;
+}
+
+.Account{
+    float:right;
+    overflow: hidden;
+}
+
+.Account .accBtn{
+    font-size: 15pt;
+    border: none;
+    outline: none;
+    color: #0B4619;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.account-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #E8E8CC;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(17, 101, 48, 0.2);
+    z-index: 1;
+}
+
+.account-dropdown a{
+    float: none;
+    color: #0B4619;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.show{
+    display: block;
+}
+
+@media screen and (max-width: 700px){
+    .snv{
+        margin: 0;
+    }
+    
+}

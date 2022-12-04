@@ -1,7 +1,9 @@
 .Content{
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: auto;
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 100%;
+  background-color: #E8E8CC;
+  font-family: 'Libre Bodoni', serif;
 }
 
 
@@ -11,3 +13,5 @@
     margin-left: 0;
   }
 }
+
+/* https://colorhunt.co/palette/ffcc1d0b4619116530e8e8cc */
